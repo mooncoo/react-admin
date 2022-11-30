@@ -1,0 +1,14 @@
+var Common = require('./common');
+module.exports = {
+  test: {
+    host: "http://xxx/bossbff",
+    HOST: "http://xxx/bossbff",
+    X_XITE_ADMIN_HOST: "http://xxx/web-server",
+    X_XITE_OPEN_HOST: "http://xxx/admin-api",
+    RENDER_HOST: "http://xxx/app-render",
+    PROVIDER_URL: "http://xxx/provider",
+    OSS_HOST: "https://yyy.oss-cn-shanghai.aliyuncs.com",
+    Dsn: "",
+    systemAuth: undefined,
+    ...Common
+  }}
